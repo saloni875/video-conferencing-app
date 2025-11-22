@@ -4,14 +4,10 @@ import dotenv from "dotenv";
 import { Server } from "socket.io";
 
 import mongoose from "mongoose";
-import connectToSocket from "./controllers/socket.Maneger.js";
+import connectToSocket from "./controllers/socket.Manager.js";
 
 import cors from "cors";
 import userRoutes from "./routes/user.routes.js";
-
-
-
-
 
 dotenv.config();
 
